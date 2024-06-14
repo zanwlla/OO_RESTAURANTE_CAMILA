@@ -14,7 +14,7 @@ class Restaurante:
     
     @classmethod
     def listar_restaurantes(cls):
-        print(f'Nome do Restaurante | Categoria | Status')
+        print(f'Nome do Restaurante | Categoria          | Status')
         for restaurante in cls.restaurantes:
             print(f'{restaurante.nome.ljust(20)}|{restaurante.categoria.ljust(20)}|{restaurante.ativo}')
 
